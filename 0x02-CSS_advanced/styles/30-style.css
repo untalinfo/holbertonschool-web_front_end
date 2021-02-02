@@ -207,6 +207,7 @@ a:active {
     width: 100%;
     /*object-fit property is used to specify how an <img> or <video> should be resized to fit its container.*/
     object-fit: cover;
+    vertical-align: bottom;
 }
 .card-work .card-inner {
     position: absolute;
