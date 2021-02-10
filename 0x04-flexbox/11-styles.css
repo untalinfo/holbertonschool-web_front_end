@@ -1,9 +1,9 @@
 
 /* SUMMARY
-	1. GLOBAL
-	2. LAYOUT
-	3. SECTION
-	4. CARD
+  1. GLOBAL
+  2. LAYOUT
+  3. SECTION
+  4. CARD
 */
 
 /*** 1. GLOBAL ***/
@@ -525,7 +525,7 @@ padding: var(--header-padding);
 
 /*** ARTICLE PAGE ***/
 /* Section HERO (article)
-    ============================= */
+  ============================= */
 
 .hero-article {
   background-size: 150rem 100rem;
