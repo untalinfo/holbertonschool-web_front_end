@@ -21,9 +21,8 @@
             var expires = "expires="+ d.toUTCString();
             let firstname = document.getElementById("firstname").value;
             let email = document.getElementById("email").value;
-            document.cookie = `firsname=${firstname}`;
-            document.cookie = `email=${email}`;
-            document.cookie = `${expires}`;
+            document.cookie = `firsname=${firstname}; ${expires}; path=/`;
+            document.cookie = `email=${email}; ${expires}; path=/`;
             document.getElementById('firstname').value = '';
             document.getElementById('email').value = ''
         };
